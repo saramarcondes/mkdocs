@@ -10,12 +10,12 @@ Project documentation with Markdown.
 [![Coverage Status][codecov-image]][codecov-link]
 [![Landscale Code Health][landscape-image]][landscape-link]
 
-*   View the [MkDocs documentation][mkdocs].
-*   Project [release notes][release-notes].
-*   Visit the [MkDocs wiki](https://github.com/mkdocs/mkdocs/wiki) for community
+-   View the [MkDocs documentation][mkdocs].
+-   Project [release notes][release-notes].
+-   Visit the [MkDocs wiki](https://github.com/mkdocs/mkdocs/wiki) for community
     resources, including third party themes and a list of MkDocs users.
-*   IRC channel: `#mkdocs` on freenode.
-*   Discussions and support: <https://groups.google.com/forum/#!forum/mkdocs>
+-   IRC channel: `#mkdocs` on freenode.
+-   Discussions and support: <https://groups.google.com/forum/#!forum/mkdocs>
 
 ## Code of Conduct
 

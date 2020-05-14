@@ -524,25 +524,25 @@ A list of languages to use when building the search index as identified by their
 [ISO 639-1] language codes. With [Lunr Languages], the following languages are
 supported:
 
-*   `ar`: Arabic
-*   `da`: Danish
-*   `nl`: Dutch
-*   `en`: English
-*   `fi`: Finnish
-*   `fr`: French
-*   `de`: German
-*   `hu`: Hungarian
-*   `it`: Italian
-*   `ja`: Japanese
-*   `no`: Norwegian
-*   `pt`: Portuguese
-*   `ro`: Romanian
-*   `ru`: Russian
-*   `es`: Spanish
-*   `sv`: Swedish
-*   `th`: Thai
-*   `tr`: Turkish
-*   `vi`: Vietnamese
+-   `ar`: Arabic
+-   `da`: Danish
+-   `nl`: Dutch
+-   `en`: English
+-   `fi`: Finnish
+-   `fr`: French
+-   `de`: German
+-   `hu`: Hungarian
+-   `it`: Italian
+-   `ja`: Japanese
+-   `no`: Norwegian
+-   `pt`: Portuguese
+-   `ro`: Romanian
+-   `ru`: Russian
+-   `es`: Spanish
+-   `sv`: Swedish
+-   `th`: Thai
+-   `tr`: Turkish
+-   `vi`: Vietnamese
 
 You may [contribute additional languages].
 

@@ -177,16 +177,16 @@ The `config` variable is an instance of MkDocs' config object generated from the
 `mkdocs.yml` config file. While you can use any config option, some commonly
 used options include:
 
-*   [config.site_name](./configuration.md#site_name)
-*   [config.site_url](./configuration.md#site_url)
-*   [config.site_author](./configuration.md#site_author)
-*   [config.site_description](./configuration.md#site_description)
-*   [config.extra_javascript](./configuration.md#extra_javascript)
-*   [config.extra_css](./configuration.md#extra_css)
-*   [config.repo_url](./configuration.md#repo_url)
-*   [config.repo_name](./configuration.md#repo_name)
-*   [config.copyright](./configuration.md#copyright)
-*   [config.google_analytics](./configuration.md#google_analytics)
+-   [config.site_name](./configuration.md#site_name)
+-   [config.site_url](./configuration.md#site_url)
+-   [config.site_author](./configuration.md#site_author)
+-   [config.site_description](./configuration.md#site_description)
+-   [config.extra_javascript](./configuration.md#extra_javascript)
+-   [config.extra_css](./configuration.md#extra_css)
+-   [config.repo_url](./configuration.md#repo_url)
+-   [config.repo_name](./configuration.md#repo_name)
+-   [config.copyright](./configuration.md#copyright)
+-   [config.google_analytics](./configuration.md#google_analytics)
 
 #### nav
 
@@ -288,10 +288,10 @@ The rendered Markdown as HTML, this is the contents of the documentation.
 An iterable object representing the Table of contents for a page. Each item in
 the `toc` is an `AnchorLink` which contains the following attributes:
 
-*   `AnchorLink.title`: The text of the item.
-*   `AnchorLink.url`: The hash fragment of a URL pointing to the item.
-*   `AnchorLink.level`: The zero-based level of the item.
-*   `AnchorLink.children`: An iterable of any child items.
+-   `AnchorLink.title`: The text of the item.
+-   `AnchorLink.url`: The hash fragment of a URL pointing to the item.
+-   `AnchorLink.level`: The zero-based level of the item.
+-   `AnchorLink.children`: An iterable of any child items.
 
 The following example would display the top two levels of the Table of Contents
 for a page.

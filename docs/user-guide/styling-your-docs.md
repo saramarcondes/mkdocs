@@ -32,14 +32,14 @@ every feature of MkDocs.
 In addition to the default [theme configuration options], the `mkdocs` theme
 supports the following options:
 
-*   **`highlightjs`**: Enables highlighting of source code in code blocks using
+-   **`highlightjs`**: Enables highlighting of source code in code blocks using
     the [highlight.js] JavaScript library. Default: `True`.
 
-*   **`hljs_style`**: The highlight.js library provides 79 different [styles]
+-   **`hljs_style`**: The highlight.js library provides 79 different [styles]
     (color variations) for highlighting source code in code blocks. Set this to
     the name of the desired style. Default: `github`.
 
-*   **`hljs_languages`**: By default, highlight.js only supports 23 common
+-   **`hljs_languages`**: By default, highlight.js only supports 23 common
     languages. List additional languages here to include support for them.
 
           theme:
@@ -49,7 +49,7 @@ supports the following options:
                   - yaml
                   - rust
 
-*   **`shortcuts`**: Defines keyboard shortcut keys.
+-   **`shortcuts`**: Defines keyboard shortcut keys.
 
           theme:
               name: mkdocs
@@ -63,19 +63,19 @@ supports the following options:
     available on all keyboards. You may use <https://keycode.info/> to determine
     the key code for a given key.
 
-    *   **`help`**: Display a help modal which lists the keyboard shortcuts.
+    -   **`help`**: Display a help modal which lists the keyboard shortcuts.
         Default: `191` (&quest;)
 
-    *   **`next`**: Navigate to the "next" page. Default: `78` (n)
+    -   **`next`**: Navigate to the "next" page. Default: `78` (n)
 
-    *   **`previous`**: Navigate to the "previous" page. Default: `80` (p)
+    -   **`previous`**: Navigate to the "previous" page. Default: `80` (p)
 
-    *   **`search`**: Display the search modal. Default: `83` (s)
+    -   **`search`**: Display the search modal. Default: `83` (s)
 
-*   **`navigation_depth`**: The maximum depth of the navigation tree in the
+-   **`navigation_depth`**: The maximum depth of the navigation tree in the
     sidebar. Default: `2`.
 
-*   **`nav_style`**: This adjusts the visual style for the top navigation bar; by
+-   **`nav_style`**: This adjusts the visual style for the top navigation bar; by
     default, this is set to `primary` (the default), but it can also be set to
     `dark` or `light`.
 
@@ -96,10 +96,10 @@ two levels of navigation are supported.
 In addition to the default [theme configuration options], the `readthedocs`
 theme supports the following options:
 
-*   **`highlightjs`**: Enables highlighting of source code in code blocks using
+-   **`highlightjs`**: Enables highlighting of source code in code blocks using
     the [highlight.js] JavaScript library. Default: `True`.
 
-*   **`hljs_languages`**: By default, highlight.js only supports 23 common
+-   **`hljs_languages`**: By default, highlight.js only supports 23 common
     languages. List additional languages here to include support for them.
 
           theme:
@@ -109,25 +109,25 @@ theme supports the following options:
                   - yaml
                   - rust
 
-*   **`include_homepage_in_sidebar`**: Lists the homepage in the sidebar menu. As
+-   **`include_homepage_in_sidebar`**: Lists the homepage in the sidebar menu. As
     MkDocs requires that the homepage be listed in the `nav` configuration
     option, this setting allows the homepage to be included or excluded from
     the sidebar. Note that the site name/logo always links to the homepage.
     Default: `True`.
 
-*   **`prev_next_buttons_location`**: One of `bottom`, `top`, `both` , or `none`.
+-   **`prev_next_buttons_location`**: One of `bottom`, `top`, `both` , or `none`.
     Displays the “Next” and “Previous” buttons accordingly. Default: `bottom`.
 
-*   **`navigation_depth`**: The maximum depth of the navigation tree in the
+-   **`navigation_depth`**: The maximum depth of the navigation tree in the
     sidebar. Default: `4`.
 
-*   **`collapse_navigation`**: Only include the page section headers in the
+-   **`collapse_navigation`**: Only include the page section headers in the
     sidebar for the current page. Default: `True`.
 
-*   **`titles_only`**: Only include page titles in the sidebar, excluding all
+-   **`titles_only`**: Only include page titles in the sidebar, excluding all
     section headers for all pages. Default: `False`.
 
-*   **`sticky_navigation`**: If True, causes the sidebar to scroll with the main
+-   **`sticky_navigation`**: If True, causes the sidebar to scroll with the main
     page content as you scroll the page. Default: `True`.
 
 ### Third Party Themes
@@ -290,20 +290,20 @@ own. You will need to consult the parent theme you are using to determine what
 blocks are available to override. The MkDocs and ReadTheDocs themes provide the
 following blocks:
 
-*   `site_meta`: Contains meta tags in the document head.
-*   `htmltitle`: Contains the page title in the document head.
-*   `styles`: Contains the link tags for stylesheets.
-*   `libs`: Contains the JavaScript libraries (jQuery, etc) included in the page header.
-*   `scripts`: Contains JavaScript scripts which should execute after a page loads.
-*   `analytics`: Contains the analytics script.
-*   `extrahead`: An empty block in the `<head>` to insert custom tags/scripts/etc.
-*   `site_name`: Contains the site name in the navigation bar.
-*   `site_nav`: Contains the site navigation in the navigation bar.
-*   `search_button`: Contains the search box in the navigation bar.
-*   `next_prev`: Contains the next and previous buttons in the navigation bar.
-*   `repo`: Contains the repository link in the navigation bar.
-*   `content`: Contains the page content and table of contents for the page.
-*   `footer`: Contains the page footer.
+-   `site_meta`: Contains meta tags in the document head.
+-   `htmltitle`: Contains the page title in the document head.
+-   `styles`: Contains the link tags for stylesheets.
+-   `libs`: Contains the JavaScript libraries (jQuery, etc) included in the page header.
+-   `scripts`: Contains JavaScript scripts which should execute after a page loads.
+-   `analytics`: Contains the analytics script.
+-   `extrahead`: An empty block in the `<head>` to insert custom tags/scripts/etc.
+-   `site_name`: Contains the site name in the navigation bar.
+-   `site_nav`: Contains the site navigation in the navigation bar.
+-   `search_button`: Contains the search box in the navigation bar.
+-   `next_prev`: Contains the next and previous buttons in the navigation bar.
+-   `repo`: Contains the repository link in the navigation bar.
+-   `content`: Contains the page content and table of contents for the page.
+-   `footer`: Contains the page footer.
 
 You may need to view the source template files to ensure your modifications will
 work with the structure of the site. See [Template Variables] for a list of
