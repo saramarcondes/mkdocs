@@ -8,7 +8,6 @@
 
 ![Image](../sub1/image.png)
 
-
 ### Absolute path
 
     ![Image](/sub1/image.png)
@@ -22,7 +21,6 @@
     ![Image](../image.png)
 
 ![Image](../image.png)
-
 
 ### Absolute path
 

@@ -22,7 +22,6 @@
 
 ![Image](../../image.png)
 
-
 ### Absolute path
 
     ![Image](/image.png)

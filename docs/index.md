@@ -111,8 +111,7 @@ Install the `mkdocs` package using pip:
 pip install mkdocs
 ```
 
-You should now have the `mkdocs` command installed on your system. Run `mkdocs
---version` to check that everything worked okay.
+You should now have the `mkdocs` command installed on your system. Run `mkdocs --version` to check that everything worked okay.
 
 ```bash
 $ mkdocs --version
@@ -120,8 +119,8 @@ mkdocs, version 0.15.3
 ```
 
 !!! Note
-    If you would like manpages installed for MkDocs, the [click-man] tool can
-    generate and install them for you. Simply run the following two commands:
+If you would like manpages installed for MkDocs, the [click-man] tool can
+generate and install them for you. Simply run the following two commands:
 
         pip install click-man
         click-man --target path/to/man/pages mkdocs
@@ -133,8 +132,8 @@ mkdocs, version 0.15.3
 [click-man documentation]: https://github.com/click-contrib/click-man#automatic-man-page-installation-with-setuptools-and-pip
 
 !!! Note
-    If you are using Windows, some of the above commands may not work
-    out-of-the-box.
+If you are using Windows, some of the above commands may not work
+out-of-the-box.
 
     A quick solution may be to preface every Python command with `python -m`
     like this:
@@ -269,7 +268,7 @@ an `img` subdirectory in your `docs_dir` and copy your custom `favicon.ico` file
 to that directory. MkDocs will automatically detect and use that file as your
 favicon icon.
 
-[MkDocs favicon]: /img/favicon.ico
+[mkdocs favicon]: /img/favicon.ico
 
 ## Building the site
 
@@ -350,15 +349,15 @@ the MkDocs IRC channel `#mkdocs` on freenode.
 [theme]: user-guide/styling-your-docs/
 [themes]: user-guide/styling-your-docs/
 [plugins]: user-guide/plugins/
-[MkDocs Themes]: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+[mkdocs themes]: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
 [build your own]: user-guide/custom-themes/
-[Amazon S3]: https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
+[amazon s3]: https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
 [get-pip.py]: https://bootstrap.pypa.io/get-pip.py
 [nav]: user-guide/configuration/#nav
 [discussion group]: https://groups.google.com/forum/#!forum/mkdocs
-[GitHub issues]: https://github.com/mkdocs/mkdocs/issues
-[GitHub project pages]: https://help.github.com/articles/creating-project-pages-manually/
+[github issues]: https://github.com/mkdocs/mkdocs/issues
+[github project pages]: https://help.github.com/articles/creating-project-pages-manually/
 [pip]: https://pip.readthedocs.io/en/stable/installing/
-[Python]: https://www.python.org/
+[python]: https://www.python.org/
 [site_name]: user-guide/configuration/#site_name
 [theme]: user-guide/configuration/#theme

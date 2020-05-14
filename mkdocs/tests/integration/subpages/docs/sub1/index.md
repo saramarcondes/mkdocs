@@ -8,13 +8,11 @@
 
 ![Image](image.png)
 
-
 ### Relative path 2
 
     ![Image](./image.png)
 
 ![Image](./image.png)
-
 
 ### Absolute path
 
@@ -29,7 +27,6 @@
     ![Image](../image.png)
 
 ![Image](../image.png)
-
 
 ### Absolute path
 

@@ -76,8 +76,7 @@ nested URLs, like so:
 
 Any files which are not identified as Markdown files (by their file extension)
 within the [documentation directory](configuration.md#docs_dir) are copied by
-MkDocs to the built site unaltered. See [how to link to images and media]
-(#linking_to_images_and_media) below for details.
+MkDocs to the built site unaltered. See [how to link to images and media](#linking_to_images_and_media) below for details.
 
 ### Index pages
 
@@ -186,7 +185,7 @@ configuration setting for details on how to enable extensions.
 
 MkDocs includes some extensions by default, which are highlighted below.
 
-[Python-Markdown]: https://python-markdown.github.io/
+[python-markdown]: https://python-markdown.github.io/
 [md]: https://daringfireball.net/projects/markdown/
 [differences]: https://python-markdown.github.io/#differences
 [syntax]: https://daringfireball.net/projects/markdown/syntax
@@ -204,7 +203,7 @@ specifically for MkDocs as outlined below.
 #### Linking to pages
 
 When linking between pages in the documentation you can simply use the regular
-Markdown [linking][links] syntax, including the *relative path* to the Markdown
+Markdown [linking][links] syntax, including the _relative path_ to the Markdown
 document you wish to link to.
 
 ```no-highlight
@@ -215,11 +214,11 @@ When the MkDocs build runs, these Markdown links will automatically be
 transformed into an HTML hyperlink to the appropriate HTML page.
 
 !!! warning
-    Using absolute paths with links is not officially supported. Relative paths
-    are adjusted by MkDocs to ensure they are always relative to the page. Absolute
-    paths are not modified at all. This means that your links using absolute paths
-    might work fine in your local environment but they might break once you deploy
-    them to your production server.
+Using absolute paths with links is not officially supported. Relative paths
+are adjusted by MkDocs to ensure they are always relative to the page. Absolute
+paths are not modified at all. This means that your links using absolute paths
+might work fine in your local environment but they might break once you deploy
+them to your production server.
 
 If the target documentation file is in another directory you'll need to make
 sure to include any relative directory path in the link.
@@ -333,7 +332,7 @@ Cupcake indexer is a snazzy new project for indexing small cakes.
 Your image will now be embedded when you build the documentation, and should
 also be previewed if you're working on the documentation with a Markdown editor.
 
-[GitHub pages CNAME file]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/
+[github pages cname file]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/
 
 #### Linking from raw HTML
 
@@ -384,7 +383,7 @@ specific page. The following keys are supported:
     Upon finding a title for a page, MkDoc does not continue checking any
     additional sources in the above list.
 
-[Setext-style]: https://daringfireball.net/projects/markdown/syntax#header
+[setext-style]: https://daringfireball.net/projects/markdown/syntax#header
 
 #### YAML Style Meta-Data
 
@@ -456,8 +455,8 @@ line of a document must not be blank.
     meta-data, MkDocs does not attempt to parse the content as MultiMarkdown
     style meta-data.
 
-[YAML]: http://yaml.org
-[MultiMarkdown]: http://fletcherpenney.net/MultiMarkdown_Syntax_Guide#metadata
+[yaml]: http://yaml.org
+[multimarkdown]: http://fletcherpenney.net/MultiMarkdown_Syntax_Guide#metadata
 [nav]: configuration.md#nav
 
 ### Tables

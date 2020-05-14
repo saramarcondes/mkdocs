@@ -10,12 +10,12 @@ Project documentation with Markdown.
 [![Coverage Status][codecov-image]][codecov-link]
 [![Landscale Code Health][landscape-image]][landscape-link]
 
-- View the [MkDocs documentation][mkdocs].
-- Project [release notes][release-notes].
-- Visit the [MkDocs wiki](https://github.com/mkdocs/mkdocs/wiki) for community
-  resources, including third party themes and a list of MkDocs users.
-- IRC channel: `#mkdocs` on freenode.
-- Discussions and support: <https://groups.google.com/forum/#!forum/mkdocs>
+*   View the [MkDocs documentation][mkdocs].
+*   Project [release notes][release-notes].
+*   Visit the [MkDocs wiki](https://github.com/mkdocs/mkdocs/wiki) for community
+    resources, including third party themes and a list of MkDocs users.
+*   IRC channel: `#mkdocs` on freenode.
+*   Discussions and support: <https://groups.google.com/forum/#!forum/mkdocs>
 
 ## Code of Conduct
 
@@ -32,8 +32,6 @@ rooms, and mailing lists is expected to follow the [PyPA Code of Conduct].
 [pypi-v-link]: https://pypi.org/project/mkdocs/
 [travis-image]: https://img.shields.io/travis/mkdocs/mkdocs/master.svg
 [travis-link]: https://travis-ci.org/mkdocs/mkdocs
-
 [mkdocs]: https://www.mkdocs.org
 [release-notes]: https://www.mkdocs.org/about/release-notes/
-
-[PyPA Code of Conduct]: https://www.pypa.io/en/latest/code-of-conduct/
+[pypa code of conduct]: https://www.pypa.io/en/latest/code-of-conduct/

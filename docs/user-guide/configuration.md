@@ -87,10 +87,10 @@ edit_uri: root/path/docs/
 ```
 
 !!! note
-    On a few known hosts (specifically GitHub, Bitbucket and GitLab), the
-    `edit_uri` is derived from the 'repo_url' and does not need to be set
-    manually. Simply defining a `repo_url` will automatically populate the
-    `edit_uri` configs setting.
+On a few known hosts (specifically GitHub, Bitbucket and GitLab), the
+`edit_uri` is derived from the 'repo_url' and does not need to be set
+manually. Simply defining a `repo_url` will automatically populate the
+`edit_uri` configs setting.
 
     For example, for a GitHub- or GitLab-hosted repository, the `edit_uri`
     would be automatically set as `edit/master/docs/` (Note the `edit` path
@@ -106,12 +106,12 @@ edit_uri: root/path/docs/
     string to disable the automatic setting.
 
 !!! warning
-    On GitHub and GitLab, the default "edit" path (`edit/master/docs/`) opens
-    the page in the online editor. This functionality requires that the user
-    have and be logged in to a GitHub/GitLab account. Otherwise, the user will
-    be redirected to a login/signup page. Alternatively, use the "blob" path
-    (`blob/master/docs/`) to open a read-only view, which supports anonymous
-    access.
+On GitHub and GitLab, the default "edit" path (`edit/master/docs/`) opens
+the page in the online editor. This functionality requires that the user
+have and be logged in to a GitHub/GitLab account. Otherwise, the user will
+be redirected to a login/signup page. Alternatively, use the "blob" path
+(`blob/master/docs/`) to open a read-only view, which supports anonymous
+access.
 
 **default**: `edit/master/docs/` for GitHub and GitLab repos or
 `src/default/docs/` for a Bitbucket repo, if `repo_url` matches those domains,
@@ -293,10 +293,10 @@ the root of your local file system.
 **default**: `'site'`
 
 !!! note "Note:"
-    If you are using source code control you will normally want to ensure that
-    your *build output* files are not committed into the repository, and only
-    keep the *source* files under version control. For example, if using `git`
-    you might add the following line to your `.gitignore` file:
+If you are using source code control you will normally want to ensure that
+your _build output_ files are not committed into the repository, and only
+keep the _source_ files under version control. For example, if using `git`
+you might add the following line to your `.gitignore` file:
 
         site/
 
@@ -359,19 +359,19 @@ documentation.
 The following table demonstrates how the URLs used on the site differ when
 setting `use_directory_urls` to `true` or `false`.
 
-Source file      | use_directory_urls: true  | use_directory_urls: false
----------------- | ------------------------- | -------------------------
-index.md         | /                         | /index.html
-api-guide.md     | /api-guide/               | /api-guide.html
-about/license.md | /about/license/           | /about/license.html
+| Source file      | use_directory_urls: true | use_directory_urls: false |
+| ---------------- | ------------------------ | ------------------------- |
+| index.md         | /                        | /index.html               |
+| api-guide.md     | /api-guide/              | /api-guide.html           |
+| about/license.md | /about/license/          | /about/license.html       |
 
 The default style of `use_directory_urls: true` creates more user friendly URLs,
 and is usually what you'll want to use.
 
 The alternate style can occasionally be useful if you want your documentation to
 remain properly linked when opening pages directly from the file system, because
-it creates links that point directly to the target *file* rather than the target
-*directory*.
+it creates links that point directly to the target _file_ rather than the target
+_directory_.
 
 **default**: `true`
 
@@ -448,9 +448,9 @@ markdown_extensions:
 ```
 
 !!! note "See Also:"
-    The Python-Markdown documentation provides a [list of extensions][exts]
-    which are available out-of-the-box. For a list of configuration options
-    available for a given extension, see the documentation for that extension.
+The Python-Markdown documentation provides a [list of extensions][exts]
+which are available out-of-the-box. For a list of configuration options
+available for a given extension, see the documentation for that extension.
 
     You may also install and use various [third party extensions][3rd]. Consult
     the documentation provided by those extensions for installation instructions
@@ -500,7 +500,7 @@ plugins:
         separator: '[\s\-\.]+'
 ```
 
-  **default**: `'[\s\-]+'`
+**default**: `'[\s\-]+'`
 
 ##### **min_search_length**
 
@@ -516,7 +516,7 @@ plugins:
         min_search_length: 2
 ```
 
-  **default**: 3
+**default**: 3
 
 ##### **lang**
 
@@ -524,25 +524,25 @@ A list of languages to use when building the search index as identified by their
 [ISO 639-1] language codes. With [Lunr Languages], the following languages are
 supported:
 
-* `ar`: Arabic
-* `da`: Danish
-* `nl`: Dutch
-* `en`: English
-* `fi`: Finnish
-* `fr`: French
-* `de`: German
-* `hu`: Hungarian
-* `it`: Italian
-* `ja`: Japanese
-* `no`: Norwegian
-* `pt`: Portuguese
-* `ro`: Romanian
-* `ru`: Russian
-* `es`: Spanish
-* `sv`: Swedish
-* `th`: Thai
-* `tr`: Turkish
-* `vi`: Vietnamese
+*   `ar`: Arabic
+*   `da`: Danish
+*   `nl`: Dutch
+*   `en`: English
+*   `fi`: Finnish
+*   `fr`: French
+*   `de`: German
+*   `hu`: Hungarian
+*   `it`: Italian
+*   `ja`: Japanese
+*   `no`: Norwegian
+*   `pt`: Portuguese
+*   `ro`: Romanian
+*   `ru`: Russian
+*   `es`: Spanish
+*   `sv`: Swedish
+*   `th`: Thai
+*   `tr`: Turkish
+*   `vi`: Vietnamese
 
 You may [contribute additional languages].
 
@@ -602,11 +602,11 @@ report it on [Lunr.py's issues] and fall back to the Node.js version.
 [theme_dir]: styling-your-docs.md#using-the-theme_dir
 [styling your docs]: styling-your-docs.md
 [extra_css]: #extra_css
-[Plugins]: plugins.md
+[plugins]: plugins.md
 [lunr.js]: https://lunrjs.com/
-[ISO 639-1]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-[Lunr Languages]: https://github.com/MihaiValentin/lunr-languages#lunr-languages-----
+[iso 639-1]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+[lunr languages]: https://github.com/MihaiValentin/lunr-languages#lunr-languages-----
 [contribute additional languages]: https://github.com/MihaiValentin/lunr-languages/blob/master/CONTRIBUTING.md
-[Node.js]: https://nodejs.org/
-[Lunr.py]: http://lunr.readthedocs.io/
-[Lunr.py's issues]: https://github.com/yeraydiazdiaz/lunr.py/issues
+[node.js]: https://nodejs.org/
+[lunr.py]: http://lunr.readthedocs.io/
+[lunr.py's issues]: https://github.com/yeraydiazdiaz/lunr.py/issues
